@@ -26,6 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
+added defer to script tags
 
 ```
 
@@ -35,7 +36,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+- header.style.color to change color
 ```
 
 ## Deliverable 3
@@ -57,6 +58,16 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
+- for each player obj in the array
+  - created a div element
+    - add attributes to dib
+  - created an h3
+    - assigned inner html of h3
+  - created img
+    - assigned attributes to img
+  - append the h3 and img to div
+  - append the div to the player-containger
+  - celebrate wildly 
 
 ```
 
